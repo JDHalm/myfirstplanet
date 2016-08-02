@@ -1,5 +1,5 @@
 app.factory('planet', ['$http', function($http) { 
-  return $http.get('http://nmsfirstplanet.com/js/controllers/PlanetArray.json') 
+  return $http.get('https://github.com/JDHalm/myfirstplanet/blob/master/js/controllers/PlanetArray.json') 
             .success(function(data) { 
               return data; 
             }) 
