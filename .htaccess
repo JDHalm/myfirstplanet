@@ -1,3 +1,3 @@
 <IfModule mod_headers.c>
-   Header add Access-Control-Allow-Origin: "https://jdhalm.github.io"
+   Header add Access-Control-Allow-Origin: *
 </IfModule>
