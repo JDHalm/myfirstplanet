@@ -1,9 +1,9 @@
 body {
     background: #2d8580 url('../img/bg.jpg') no-repeat;
-  background-size: cover;
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 h1,
@@ -26,7 +26,6 @@ a:active {
     color: #9babad;
 }
 
-
 #preloader {
     position: fixed;
     left: 0;
@@ -37,18 +36,27 @@ a:active {
     overflow: visible;
     background: #373e3f url('../img/infinite-gif-preloader.gif') no-repeat center center;
 }
-.orbit img{width:100%; height: auto;}
-.planet-title{color: #222;
-    background: rgba(255,255,255,.7);
+
+.orbit img {
+    width: 100%;
+    height: auto;
+}
+
+.planet-title {
+    color: #222;
+    background: rgba(255, 255, 255, .7);
     padding: 10px;
-margin-top: 0px;
-position: absolute;
-bottom: 0px;
-    width: 50%;
-transition: .3s ease-in-out;}
-.planet-cards:hover .planet-title{width: 100%;}
-.planet-cards{padding: 0px !important; margin: 0px; position:relative;}
-.planet-cards h4{}
+    transition: .3s ease-in-out;
+}
+
+.planet-cards {
+    padding: 0px !important;
+    margin: 0px;
+    position: relative;
+}
+
+.planet-cards h4 {}
+
 p {
     font-family: 'Raleway', sans-serif;
     color: #283233;
@@ -60,22 +68,27 @@ p {
     margin-right: auto;
     max-width: initial;
 }
-.app-menu{background: rgba(255,255,255,.5);}
 
-.pinkpill{
-  
+.app-menu {
+    background: rgba(255, 255, 255, .5);
+}
+
+.pinkpill {
     line-height: 70px;
     padding: 10px 20px;
     color: white;
     background: #f3625e;
-    -webkit-box-shadow: 0px 0px 18px -1px rgba(243,98,94,1);
--moz-box-shadow: 0px 0px 18px -1px rgba(243,98,94,1);
-box-shadow: 0px 0px 18px -1px rgba(243,98,94,1);
-       border-radius: 30px;
+    -webkit-box-shadow: 0px 0px 18px -1px rgba(243, 98, 94, 1);
+    -moz-box-shadow: 0px 0px 18px -1px rgba(243, 98, 94, 1);
+    box-shadow: 0px 0px 18px -1px rgba(243, 98, 94, 1);
+    border-radius: 30px;
     transition: .3s ease-in-out;
-    
 }
-.pinkpill:hover{color: #ffc7c5;}
+
+.pinkpill:hover {
+    color: #ffc7c5;
+}
+
 .tab-wrap {
     position: relative;
     background: #f5f3ef;
@@ -87,7 +100,8 @@ box-shadow: 0px 0px 18px -1px rgba(243,98,94,1);
     padding: 30px;
     text-align: center;
 }
-.row-pad{
+
+.row-pad {
     padding-top: 50px;
     padding-bottom: 50px;
 }
