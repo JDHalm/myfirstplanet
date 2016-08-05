@@ -47,10 +47,11 @@ a:active {
     background: rgba(255, 255, 255, .7);
     padding: 10px;
     transition: .3s ease-in-out;
+    margin-top: 0px;
 }
 
 .planet-cards {
-    padding: 0px !important;
+    padding: 5px !important;
     margin: 0px;
     position: relative;
 }
